@@ -1,0 +1,74 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "horarioEstablecimiento",
+    "collectionId": "8748b223-e852-41d9-a4b3-cbceed384667",
+    "dateExported": "2024-07-24T00:38:58.937Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "b7c9356c-22eb-409c-8f32-7b86721d8bfa",
+            "colId": "8748b223-e852-41d9-a4b3-cbceed384667",
+            "containerId": "",
+            "name": "crear",
+            "url": "http://localhost:3000/horarios/horario/",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-07-24T00:20:48.419Z",
+            "modified": "2024-07-24T00:34:43.022Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"dia\": \"Lunes\",\n  \"apertura\": \"08:00\",\n  \"cierre\": \"09:00\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "500a1e9a-c3e7-41a7-b516-3ddfef4f27f2",
+            "colId": "8748b223-e852-41d9-a4b3-cbceed384667",
+            "containerId": "",
+            "name": "modificar",
+            "url": "http://localhost:3000/horarios/horario/",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-07-24T00:21:01.772Z",
+            "modified": "2024-07-24T00:37:13.444Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n      \"id\": \"11\",\n      \"dia\": \"miercoles\",\n      \"apertura\": \"08:00\",\n      \"cierre\": \"10:00\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "a7a6d059-9f10-4041-969f-22695fcfb118",
+            "colId": "8748b223-e852-41d9-a4b3-cbceed384667",
+            "containerId": "",
+            "name": "eliminar",
+            "url": "http://localhost:3000/horarios/horario/",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-07-24T00:21:11.844Z",
+            "modified": "2024-07-24T00:38:41.334Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id_horario\": \"11\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "14fdfb1b-4b5a-458c-9259-f5dc859088a1",
+            "colId": "8748b223-e852-41d9-a4b3-cbceed384667",
+            "containerId": "",
+            "name": "listar",
+            "url": "http://localhost:3000/horarios/horario/",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-07-24T00:21:23.360Z",
+            "modified": "2024-07-24T00:38:08.739Z",
+            "headers": []
+        }
+    ],
+    "ref": "GcP5toSFXIC4ZYfcmi4okshfaRszIxeTA36fhJicx1L9wIG9ohEuB81DxPpvVlNXiWUHqbUP1uplHSjMWiGVBQ"
+}

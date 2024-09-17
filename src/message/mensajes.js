@@ -1,30 +1,38 @@
-import colors from "colors"
+import colors from "colors"; // Importa el módulo colors para estilizar la salida en consola
 
-export const consola = (tipo, mensajes)=>{
+// Función para imprimir mensajes en la consola con diferentes estilos según el tipo
+export const consola = (tipo, mensajes) => {
     switch (tipo) {
         case "AccesoPuerto":
+            // Imprime el mensaje con un fondo rojo si el tipo es "AccesoPuerto"
             console.log(mensajes.bgRed);
             break;
         case "ErrorPuerto":
-        console.log(mensajes.bgYellow);
+            // Imprime el mensaje con un fondo amarillo si el tipo es "ErrorPuerto"
+            console.log(mensajes.bgYellow);
             break;
     }
 }
+
+// Objeto que contiene mensajes predefinidos
 export const mensaje = {
-    puerto: "Ejecutandose en el Puerto:",
+    puerto: "Ejecutandose en el Puerto:", // Mensaje para indicar el puerto en el que se está ejecutando el servidor
 }
 
-export const Acceso = (req,res, status=200, mensaje="")=>{
+// Función para enviar una respuesta de éxito en formato JSON
+export const Acceso = (req, res, status, mensaje) => {
     res.status(status).json({
-        error: false,
-        status: status,
-        body: mensaje
-    })
+        error: false, // Indica que no hubo error
+        status: status, // Código de estado HTTP
+        body: mensaje // Mensaje de respuesta
+    });
 }
-export const Error = (req, res,status=500, mensaje="")=>{
+
+// Función para enviar una respuesta de error en formato JSON
+export const Error = (req, res, status, mensaje) => {
     res.status(status).json({
-        error: true,
-        status: status,
-        body: mensaje
-    })
+        error: true, // Indica que hubo un error
+        status: status, // Código de estado HTTP
+        body: mensaje // Mensaje de error
+    });
 }

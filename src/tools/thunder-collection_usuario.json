@@ -1,0 +1,97 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "usuario",
+    "collectionId": "083f9865-5241-4345-b78b-8af617c366bb",
+    "dateExported": "2024-07-24T00:25:44.299Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "f0f7bde0-9cf4-4761-8fea-5466c4cc1b01",
+            "colId": "083f9865-5241-4345-b78b-8af617c366bb",
+            "containerId": "",
+            "name": "mostrar",
+            "url": "http://localhost:3000/user/usuario/4",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-06-05T23:11:18.879Z",
+            "modified": "2024-06-12T00:49:30.508Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ]
+        },
+        {
+            "_id": "9ef05da1-71d7-4bc7-b9ba-f549c5206914",
+            "colId": "083f9865-5241-4345-b78b-8af617c366bb",
+            "containerId": "",
+            "name": "crear",
+            "url": "http://localhost:3000/user/usuario",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-06-05T23:11:56.419Z",
+            "modified": "2024-06-06T04:49:41.553Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"federico\",\n  \"usuario\": \"nose123\",\n  \"contrasena\": \"416178\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "e0ca64b6-4af9-4ec1-8b35-8e7bf7fcf7ee",
+            "colId": "083f9865-5241-4345-b78b-8af617c366bb",
+            "containerId": "",
+            "name": "modificar",
+            "url": "http://localhost:3000/user/usuario",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-06-05T23:12:06.128Z",
+            "modified": "2024-06-06T11:23:31.761Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": 7,\n  \"nombre\": \"isabella\",\n  \"usuario\": \"isa1234\",\n  \"contrasena\": \"416188\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "7667cf9b-8d34-40cf-abd6-9ad6b4ab4de4",
+            "colId": "083f9865-5241-4345-b78b-8af617c366bb",
+            "containerId": "",
+            "name": "eliminar",
+            "url": "http://localhost:3000/user/usuario",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-06-05T23:12:12.035Z",
+            "modified": "2024-06-06T11:28:22.809Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": 6\n}\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "f6ef5719-b8cf-4d45-b56a-bfcc472baeda",
+            "colId": "083f9865-5241-4345-b78b-8af617c366bb",
+            "containerId": "",
+            "name": "listar",
+            "url": "http://localhost:3000/producto",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-06-11T23:09:00.895Z",
+            "modified": "2024-06-25T23:57:07.357Z",
+            "headers": []
+        }
+    ],
+    "ref": "2HyXm3M_HFUdF8Cg-k4plyJss2roxGyy8nUXrLgN7JhG1DjcopxxCNCZp8updFnGGwNz9-579UyRJ6gFN796Ag"
+}

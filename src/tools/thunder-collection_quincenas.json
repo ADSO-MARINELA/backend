@@ -1,0 +1,23 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "quincenas",
+    "collectionId": "db67c727-ba03-4591-9ad7-01faf01d5e33",
+    "dateExported": "2024-07-24T01:34:37.314Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "5d7175cf-ba7a-405b-b829-c20bfa96f4ff",
+            "colId": "db67c727-ba03-4591-9ad7-01faf01d5e33",
+            "containerId": "",
+            "name": "listar",
+            "url": "http://localhost:3000/quincenas/quincena/",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-07-24T00:25:18.416Z",
+            "modified": "2024-07-24T01:33:12.286Z",
+            "headers": []
+        }
+    ],
+    "ref": "BFTscOeLY99mkLrBrsS3fdT8cbvDE1HD7M4xrtfRDg-57_RwLDZJConYYCFIm5Kt0YLigF-jrTaRrhUbyGN9DQ"
+}

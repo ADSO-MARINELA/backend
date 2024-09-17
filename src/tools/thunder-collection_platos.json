@@ -1,0 +1,57 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "platos",
+    "collectionId": "cd616389-b30a-4700-b793-be067466d524",
+    "dateExported": "2024-07-24T01:34:29.786Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "db94ab21-f17f-4f8d-9067-cab8e010c4e6",
+            "colId": "cd616389-b30a-4700-b793-be067466d524",
+            "containerId": "",
+            "name": "listar",
+            "url": "http://localhost:3000/platos/plato/",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-07-24T00:24:45.717Z",
+            "modified": "2024-07-24T01:20:46.211Z",
+            "headers": []
+        },
+        {
+            "_id": "32dd6a8d-627d-46fa-9fce-485848047954",
+            "colId": "cd616389-b30a-4700-b793-be067466d524",
+            "containerId": "",
+            "name": "modificar",
+            "url": "http://localhost:3000/platos/plato/",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-07-24T00:24:56.067Z",
+            "modified": "2024-07-24T01:23:12.137Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n      \"id\": 1,\n      \"nombres\": \"Arroz de leche\",\n      \"categoria\": \"Desayuno\",\n      \"descripcion\": \"Arroz con leche, coco y canela\",\n      \"precio\": 5000,\n      \"imagen\": \"https://bing.com/th?id=OSK.88fa1939362cb2f22c6786de3484ae04\",\n      \"stock\": 15,\n      \"rentabilidad\": 3000\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "d46edaea-31b4-4790-8687-bdd6330d628b",
+            "colId": "cd616389-b30a-4700-b793-be067466d524",
+            "containerId": "",
+            "name": "eliminar",
+            "url": "http://localhost:3000/platos/plato/",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2024-07-24T00:25:05.483Z",
+            "modified": "2024-07-24T01:25:00.438Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id_plato\": \"7\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "ngJxche0ameL_U5rHSHQqHIDL98ZHzDCf5oKklKLKvWqH81jUpYJ46BdHWRMEHDYDgC3UwFLrqELtuRvK1ESdQ"
+}

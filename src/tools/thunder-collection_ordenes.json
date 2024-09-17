@@ -1,0 +1,23 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "ordenes",
+    "collectionId": "f36494e6-fb99-455c-863b-cc183d762850",
+    "dateExported": "2024-07-24T01:34:22.341Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "36fe7096-1c32-4d63-a9dc-5b3bed765073",
+            "colId": "f36494e6-fb99-455c-863b-cc183d762850",
+            "containerId": "",
+            "name": "listar",
+            "url": "http://localhost:3000/ordenes/orden/",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-07-24T00:23:40.112Z",
+            "modified": "2024-07-24T00:53:26.695Z",
+            "headers": []
+        }
+    ],
+    "ref": "bUMztzV6twryLn6jS1HwiMX8Zjt0FgwAFoWdeDdnO_TsF90c0BxKurCFo3oq6Vm2I83GIzRk_PRUMK9e0flLig"
+}

@@ -1,21 +1,9 @@
-import { Router } from "express";
+import { Router } from "express"; // Importa el Router de Express para definir rutas
+import { listarVentas } from "../controllers/controller.ventas.js"; // Importa la función para listar ventas desde el controlador
 
-const rutaVentas = Router();
+const rutaVentas = Router(); // Crea una nueva instancia del Router
 
-rutaVentas.get("/ventas", () => {
-  console.log("listar");
-});
-rutaVentas.get("/ventas/:id", () => {
-  console.log("mostrar");
-});
-rutaVentas.post("/ventas", () => {
-  console.log("crear");
-});
-rutaVentas.put("/ventas", () => {
-  console.log("modificar");
-});
-rutaVentas.delete("/ventas", () => {
-  console.log("eliminar");
-});
+// Define una ruta GET en '/venta' para listar todas las ventas
+rutaVentas.get("/venta", listarVentas);
 
-export default rutaVentas;
+export default rutaVentas; // Exporta la instancia del Router para su uso en otros módulos

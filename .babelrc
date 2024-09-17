@@ -1,5 +1,8 @@
 {
     "presets": [
-        "@babel/preset-env"
+        "@babel/preset-env" // Preset que compila el código JavaScript moderno a una versión compatible con entornos más antiguos.
+    ],
+    "plugins": [
+        "@babel/transform-runtime"
     ]
 }

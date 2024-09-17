@@ -1,0 +1,67 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "administrador",
+    "collectionId": "21af765a-d6e4-4f75-a62d-8a6d7a960d50",
+    "dateExported": "2024-08-28T23:45:55.040Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "582b7c03-b898-41a4-8936-1d3f509768ef",
+            "colId": "21af765a-d6e4-4f75-a62d-8a6d7a960d50",
+            "containerId": "",
+            "name": "logueo-token",
+            "url": "http://localhost:3000/administrador/loginadmin",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-08-08T22:16:37.935Z",
+            "modified": "2024-08-20T20:39:17.691Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"usuario\": \"luisa123\",\n  \"clave\": \"luisa123\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "066d9e85-0a8a-444f-920c-af170bdf4bfc",
+            "colId": "21af765a-d6e4-4f75-a62d-8a6d7a960d50",
+            "containerId": "",
+            "name": "crear-admin",
+            "url": "http://localhost:3000/administrador/admin",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-08-20T20:15:23.227Z",
+            "modified": "2024-08-21T00:03:29.006Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"luisa fernanda perez\",\n  \"usuario\": \"luisa123\",\n  \"clave\": \"luisa123\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "ddeca4ac-29eb-4a81-8c5d-ec80ad846dd4",
+            "colId": "21af765a-d6e4-4f75-a62d-8a6d7a960d50",
+            "containerId": "",
+            "name": "validar-token",
+            "url": "http://localhost:3000/administrador/oauth",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-08-20T20:19:31.148Z",
+            "modified": "2024-08-20T21:14:04.396Z",
+            "headers": [
+                {
+                    "name": "x-access-token",
+                    "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjoibHVpc2ExMjMiLCJub21icmUiOiJsdWlzYSBmZXJuYW5kYSIsImlhdCI6MTcyNDE4ODQyOCwiZXhwIjoxNzI0MTkyMDI4fQ.WndA79LzlAZYuN-B1ennoctrQectCs-0s4p5fPnSYUY\""
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"usuario\": \"luisa123\",\n  \"clave\": \"luisa123\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "cCFSj77APJB05Jvvu_KCb-QjuQFXO0CeZFzjab5pPICLOhOwMKrde39MaRo_QMsPAzWVF0fiO5Jt51Fo54_ovw"
+}

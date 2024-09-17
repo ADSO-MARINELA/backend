@@ -1,14 +1,16 @@
-import { pool } from "../config/database.restaurante.mysql.js";
-import { config } from "dotenv";
-config();
+import { pool } from "../config/database.restaurante.mysql.js"; // Importa el pool de conexiones MySQL desde la configuración de la base de datos
+import { config } from "dotenv"; // Importa dotenv para manejar variables de entorno
+config(); // Carga las variables de entorno desde el archivo .env
 
+// Controlador para listar las quincenas
 export const listarQuincena = async (req, res) => {
   try {
+    // Llama al procedimiento almacenado SP_LISTAR_QUINCENA para obtener todas las quincenas
     const respuesta = await pool.query(`CALL SP_LISTAR_QUINCENA()`);
-    res.json({ respuesta: respuesta[0][0] });
-    return respuesta[0];
+    res.json({ respuesta: respuesta[0][0] }); // Envía la primera fila del resultado como respuesta JSON al cliente
+    return respuesta[0]; // Devuelve el conjunto de resultados
   } catch (error) {
-    console.error(error);
-    return { error: error };
+    console.error(error); // Imprime el error en la consola para depuración
+    return { error: error }; // Devuelve un objeto de error
   }
 };

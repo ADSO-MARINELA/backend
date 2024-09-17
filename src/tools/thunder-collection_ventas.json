@@ -1,0 +1,23 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "ventas",
+    "collectionId": "0b1a3fe2-1f1f-479b-85e3-ae79269af384",
+    "dateExported": "2024-07-24T01:34:42.840Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "407cf874-563d-4993-9323-0040df087706",
+            "colId": "0b1a3fe2-1f1f-479b-85e3-ae79269af384",
+            "containerId": "",
+            "name": "listar",
+            "url": "http://localhost:3000/ventas/venta/",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-07-24T00:25:33.941Z",
+            "modified": "2024-07-24T01:33:50.259Z",
+            "headers": []
+        }
+    ],
+    "ref": "m9PtJ3cH3bTldfWp8GZe7XYUC94ykQElKIoCdjlyrxBTiDtJn95TWsXxtk1pUhoPkbCDml5b3AY9k5iUpGyseg"
+}
